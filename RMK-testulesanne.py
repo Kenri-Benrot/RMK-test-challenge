@@ -52,7 +52,6 @@ def simulatsioon():
         hilineb = saabumine(aeg, bussid)
         hilinemised.append(1 if hilineb else 0)
         hetkeaeg += timedelta(minutes=1)
-
     # Graafiku joonistamine
     plt.style.use("dark_background")
     plt.figure(figsize=(8, 5))
